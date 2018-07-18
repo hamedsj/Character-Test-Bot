@@ -17,8 +17,7 @@ import telebot
 import sqlite3 as sql
 from telebot import types as tp
 
-#bot = telebot.TeleBot("416140031:AAHObPMLhyAJsFAblRwz_jcyoItGU6boiPI") # characterTestbot
-bot = telebot.TeleBot("416416566:AAHE-0gZZlYV4q-00m-ZKvgsypum-cO7AHw")  # YourTypeBot
+bot = telebot.TeleBot("YourToken")
 con = sql.connect('charBot.db')
 startMessage = "تبریک ! شما عضو ربات خودشناسی شدید. با این ربات میتونید از خودتون تست بگیرید و بیشتر باهاش (خودتون) آشنا بشید 😃\nحالا برای ادامه لازمه که روی ثبت نام کلیک کنی".decode("utf-8")
 startAgainMessage = "تبریک ! شما عضو ربات خودشناسی شدید. با این ربات میتونید از خودتون تست بگیرید و بیشتر باهاش (خودتون) آشنا بشید 😃".decode("utf-8")
